@@ -19,6 +19,7 @@
          padding: 80px;
          border-radius: 15px;
          color: white;
+         
         }
         input{
             padding: 15px;
@@ -39,9 +40,13 @@
         button:hover{
         background-color: rgb(145, 255, 145);
         }
+        
     </style>
 </head>
 <body>
+    <img src="Instituto.png" alt="logotipo da instituuição" width="25%" height="333%">
+
+    
    <div>
     <h1>Login</h1>
     <input type="text" placeholder="Número da matrícula">
@@ -50,5 +55,7 @@
     <br> <br>
     <button>Acessar</button>
    </div> 
+
+
 </body>
 </html>
