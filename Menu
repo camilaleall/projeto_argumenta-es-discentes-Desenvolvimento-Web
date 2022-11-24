@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title> Menu</title>
+ <style>
+    *{
+        margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    }
+
+    body{
+    background-color: white;
+    }
+
+    nav{
+      background-color: darkgreen; 
+      text-align: center;
+    }
+
+    nav ul{
+        display: inline-flex;
+        list-style: none;
+    }
+
+    nav ul li{
+        width: 120px;
+        margin: 15px;
+        padding: 15px;
+    }
+
+    nav ul li a{
+        text-decoration: none;
+        color: white;
+    }
+    
+</style>
+</head>
+<body>
+ <nav>
+<ul>
+    <li> <a href="#"> PERFIL </a>   </li>
+    <li> <a href="#"> DISCIPLINAS</a>   
+    
+    <div class="sub-menu-1">
+        <ul>
+            <li> <a href=" "></a></li>
+        </ul>
+    </div>
+    </li>
+    <li> <a href="#"> PSICÓLOGOS</a>   </li>
+    <li> <a href="#"> FALE CONOSCO</a>   </li>
+</ul>
+ </nav>   
+</body>
+<head>
+<body>
+   <img src="Instituto.png" alt="logotipo da instituição" width="25%"  height="333%">
+    
+</body>
+
+</head>
+</html>
